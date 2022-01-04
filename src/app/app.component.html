@@ -5,6 +5,13 @@
   esto es un div
 </div>
 
+<div [ngSwitch]="title">
+  <p *ngSwitchCase="'Jorge'">hola Jorge</p>
+  <p *ngSwitchCase="'Anyela'">hola Anyela</p>
+  <p *ngSwitchCase="'Yasmin'">hola Yasmin</p>
+  <p *ngSwitchDefault>Hola, No te conozco</p>
+</div>
+
 <button (click)="addItem()">Add Item</button>
 
 <ul>
