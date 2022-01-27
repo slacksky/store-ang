@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 
 import { ProductComponent } from './components/product.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductComponent
+    ProductComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
