@@ -8,12 +8,14 @@ import { CommonModule } from '@angular/common';
 
 import { ProductComponent } from './components/product.component';
 import { CartComponent } from './cart/cart.component';
+import { ExponentialPipe } from './exponential.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
-    CartComponent
+    CartComponent,
+    ExponentialPipe
   ],
   imports: [
     BrowserModule,

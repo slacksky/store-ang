@@ -11,6 +11,8 @@ export class AppComponent {
 
   items = ['Jorge', 'Anyela', 'Yasmin'];
 
+  power = 10;
+
   products: Product[] = [ {
     id: '1',
     image: 'assets/images/camiseta.png',
